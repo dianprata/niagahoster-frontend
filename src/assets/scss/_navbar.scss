@@ -1,0 +1,51 @@
+.navbar-wrapper {
+ font-family: Roboto-Regular, sans-serif;
+ .navbar-ads {
+  display: flex;
+  justify-content: space-between;
+  line-height: 40px;
+  padding: 0 1rem;
+  font-size: 12px;
+  font-weight: normal;
+
+  .navbar-ads-left {
+   display: flex;
+   .icon-group {
+    position: relative;
+    display: inline-block;
+    max-height: 40px;
+    .material-icons:nth-child(1) {
+     color: #148DF5;
+     font-size: 40px;
+    }
+
+    .material-icons:nth-child(2) {
+     position: absolute;
+     color: #fff;
+     left: 12px;
+     top: 10px;
+     font-size: 15px;
+    }
+   }
+  }
+
+  .navbar-ads-right {
+   display: flex;
+   margin-left: auto;
+
+   .telepon, .qa, .account {
+    display: flex;
+    align-items: center;
+    margin: 0 .5rem;
+    span {
+     font-size: 20px;
+     margin-right: .7rem;
+    }
+   }
+  }
+
+  @media screen and (max-width: 767px) {
+   display: none;
+  }
+ }
+}

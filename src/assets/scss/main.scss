@@ -1,0 +1,15 @@
+//Import Bootstrap
+@import '~bootstrap/scss/bootstrap';
+@import '~bootstrap-vue/src/index.scss';
+
+//Import Material Icons
+$material-icons-font-path: '~material-icons/iconfont/';
+@import '~material-icons/iconfont/material-icons.scss';
+
+//Import Font Awesome
+@import '~@fortawesome/fontawesome-free/css/all.css';
+
+//Import Custom CSS
+@import "navbar";
+@import "footer";
+@import "custom";
