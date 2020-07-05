@@ -1,4 +1,4 @@
-# niagahostinger-frontend
+# niagahoster-frontend
 
 ## Project setup
 ```
