@@ -601,7 +601,8 @@ export default {
   },
   methods: {
     async fetchPackage() {
-      await this.$axios.get('http://localhost:3000/api/package')
+      const baseURL = process.env.VUE_APP_BASE_URL;
+      await this.$axios.get(`${baseURL}/api/package`)
         .then((res) => {
           const price = res.data.data;
           price.map((p) => this.price.push(p.price));
